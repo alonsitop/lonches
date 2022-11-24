@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+    width: 100%;
+    animation: movimiento 18s linear infinite;   
+}
+body{
+    background-image: url("foto.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+img{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+@keyframes movimiento {
+    from{
+        margin-left: 120%;
+        
+    }
+    to{
+        margin-left: -50%;
+    }
+}
+h1{
+    color: aqua;
+    width: 100%;
+    animation: movimiento 18s linear infinite;   
+}
